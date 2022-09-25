@@ -1,0 +1,8 @@
+Тренируюсь в вёрстке HTML & CSS
+Шаблон для социальной сети.
+Оригинал тут: https://preview.themeforest.net/item/vogel-social-network-community-html-template/full_screen_preview/32986610
+(Если что, название темы "Vogel - Social Network & Community HTML Template")
+
+todo
+сделать всем тегам "а" по умолчанию "text-decoration-none"
+у аватарок заменить img-fluid rounded-circle на "avatar"
