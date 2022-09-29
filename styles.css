@@ -47,3 +47,32 @@ body {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
 }
+
+@media screen and (min-width: 1200px) {
+	.container {
+		max-width: 1140px;
+	}
+}
+@media screen and (min-width: 992px) {
+	.container {
+		max-width: 960px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+}
+@media screen and (min-width: 576px) {
+	.container {
+		max-width: 540px;
+	}
+}
+
+.container {
+	width: 100%;
+	padding-right: .75rem;
+	padding-left: .75rem;
+	margin-right: auto;
+	margin-left: auto;
+}
