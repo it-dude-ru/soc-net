@@ -17,6 +17,12 @@ input {
 
 a {
 	text-decoration: none;
+	color: #0e6dfd
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 1rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -223,8 +229,6 @@ button {
 	white-space: nowrap;
 	word-wrap: normal;
 	direction: ltr;
-	-webkit-font-feature-settings: "liga";
-	-webkit-font-smoothing: antialiased;
 }
 
 .input-group-text {
@@ -286,8 +290,8 @@ button {
 }
 
 .slick-list {
-	position: relative;
 	display: block;
+	position: relative;
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
@@ -305,3 +309,133 @@ button {
 	width: 910px;
 	transform: translate3d(0px, 0px, 0px);
 }
+
+.account-item {
+	width: 130px;
+	display: block;
+	justify-content: center;
+	float: left;
+	height: 100%;
+	min-height: 1px;
+}
+
+.user-list-item {
+	display: flex;
+	background-color: #fff;
+	padding: 1rem;
+	margin-right: 0.5rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	justify-content: center;
+	box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+	border-radius: 14px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.justify-content-center {
+	justify-content: center;
+	position: relative;
+	display: flex;
+}
+
+.avatar {
+	display: block;
+	height: 60px;
+	width: 60px;
+	max-width: 100%;
+	border-radius: 50%;
+	margin-bottom: 1rem;
+}
+
+.position-absolute {
+	position: absolute;
+	bottom: 4px;
+	right: 0;
+	left: 0;
+}
+
+.checked {
+	font-size: .875rem !important;
+	border-radius: 50%;
+	background-color: #0d6efd;
+	color: #fff;
+	font-weight: 700 !important;
+	padding: .25rem;
+}
+
+.user-name {
+	color: #212529;
+	font-weight: 700;
+	margin: 0;
+	text-align: center;
+}
+
+.text-muted {
+	font-size: .875rem;
+	color: #6c757d;
+}
+
+.btn-group {
+	display: inline-flex;
+	position: relative;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.following {
+	display: inline-block;
+	position: relative;
+	flex: 1 1 auto;
+	margin-left: -1px;
+	color: #fff;
+	background-color: #0e6dfd;
+	border-color: #0e6dfd;
+	border-radius: 50rem;
+	padding: 0.25rem 1rem;
+	font-size: .875rem;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	cursor: pointer;
+	user-select: none;
+	border: 1px solid;
+	transition: color .15s ease-in-out,
+		background-color .15s ease-in-out,
+		border-color .15s ease-in-out,
+		box-shadow .15s ease-in-out;
+}
+
+.to-follow {
+	display: inline-block;
+		position: relative;
+		flex: 1 1 auto;
+		margin-left: -1px;
+		color: #0e6dfd;
+		border-color: #0e6dfd;
+		border-radius: 50rem;
+		padding: 0.25rem 1rem;
+		font-size: .875rem;
+		font-weight: 400;
+		line-height: 1.5;
+		text-align: center;
+		text-decoration: none;
+		vertical-align: middle;
+		cursor: pointer;
+		user-select: none;
+		border: 1px solid;
+		transition: color .15s ease-in-out,
+			background-color .15s ease-in-out,
+			border-color .15s ease-in-out,
+			box-shadow .15s ease-in-out;
+}
+
+.btn-group:hover span {
+	color: #fff;
+	background-color: #0e6dfd;
+}
+
