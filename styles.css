@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.2;
 }
 
+img {
+	vertical-align: middle;
+}
+
 *,
 ::after,
 ::before {
@@ -497,9 +501,9 @@ button {
 
 .ov-icon {
 	margin-left: 0.5rem;
-	padding: 3px!important;
-	font-size: 9px!important;
-	font-weight: 700!important;
+	padding: 3px !important;
+	font-size: 9px !important;
+	font-weight: 700 !important;
 	border-radius: 50%;
 	background-color: #0d6efd;
 	color: #fff;
@@ -517,6 +521,92 @@ button {
 	font-size: .875em;
 }
 
+.post-date {
+	margin-bottom: 0;
+}
+
 .dropdown {
 	position: relative;
+}
+
+.dropdown-btn {
+	font-size: 20px !important;
+	background-color: #edf2f6;
+	border-radius: 50%;
+	color: #6c757d;
+	padding: 0.25rem;
+	margin-left: 0.5rem;
+}
+
+.dropdown-menu {
+	position: absolute;
+	z-index: 1000;
+	display: none;
+	min-width: 10rem;
+	margin: 0;
+	padding: 6px;
+	border-radius: 8px;
+	font-size: 13px;
+	color: #212529;
+	text-align: left;
+	list-style: none;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid rgba(0,0,0,.15);
+}
+
+.dropdown-item {
+	display: flex;
+	align-items: center;
+	padding: 6px 10px;
+	border-radius: 6px;
+	width: 100%;
+	clear: both;
+	font-weight: 400;
+	text-align: inherit;
+	white-space: nowrap;
+	background-color: transparent;
+	border: 0;
+}
+
+.dropdown-item-icon {
+	margin: 0 8px 0 0;
+	font-size: 13px !important;
+}
+
+.post-body {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.text-primery {
+	color: #0d6efd;
+}
+
+.text-dark {
+	color: #212529;
+}
+
+.post-img {
+	border-radius: 0.25rem;
+	margin-bottom: 1rem;
+	max-width: 100%;
+	height: auto;
+}
+
+.post-likes {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.5rem;
+}
+
+.post-bottom-action {
+	display: flex;
+	font-weight: 300;
+	align-items: flex-start;
+}
+
+.post-bottom-data {
+	font-size: 16px;
 }
