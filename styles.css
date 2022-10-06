@@ -664,3 +664,10 @@ button {
 	align-items: center;
 	font-size: .875em;
 }
+
+.replay-bottom-delimeter {
+	font-size: 3px !important;
+	color: #6c757d;
+	margin-right: 0.25rem;
+	margin-left: 0.25rem;
+}
